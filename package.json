@@ -1,0 +1,19 @@
+{
+  "name": "tech-assessments",
+  "version": "1.0.0",
+  "description": "take home challenge",
+  "main": "server.js",
+  "repository": "https://github.com/alphasights/tech-assessments.git",
+  "author": "Marek Zwick",
+  "license": "MIT",
+  "dependencies": {
+    "better-sqlite3": "^7.5.0",
+    "cors": "^2.8.5",
+    "csv-parser": "^3.0.0",
+    "express": "^4.17.3"
+  },
+  "scripts": {
+    "start": "node server.js"
+  },
+  "type": "module"
+}
